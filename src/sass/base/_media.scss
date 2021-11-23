@@ -1,0 +1,119 @@
+@media (max-width: 991px) {
+    .promo {
+        &__headee {
+            font-size: 35px;
+        }
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            span {
+                font-size: 17px;
+            }
+        }
+    }
+    .button_main {
+        width: 250px;
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .advantages {
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__item {
+            max-width: 240px
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        justify-content: space-around;
+        &__official {
+            display: none;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            margin-top: 65px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        &__icons {
+            margin-top: 40px;
+        }
+    }
+
+    .button_main {
+        width: 225px;
+        font-size: 11px;
+    }
+
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__item {
+            width: 350px;
+            height: 260px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        &__logo {
+            width: 145px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        .button {
+            width: 130px;
+            font-size: 10px;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 12px;
+            margin-top: 0;
+        }
+        &__icons {
+            width: 310px;
+            align-items: baseline;
+        }
+        &__icon {
+            font-size: 11px;
+        }
+    }
+}

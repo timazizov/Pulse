@@ -27,12 +27,40 @@
         font-size: 25px;
     }
 
+
     .advantages {
         &__wrapper {
             margin-top: 50px;
         }
         &__item {
             max-width: 240px
+        }
+    }
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+            }
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin: 35px auto;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .carousel {
+        .prev, .next {
+            position: absolute;
+            right: 0;
+            img {
+                width: 100%;
+            }
         }
     }
 }
@@ -81,6 +109,11 @@
             margin-top: 10px;
         }
     }
+    .reviews {
+        &__post {
+            display: inline;
+        } 
+     }
 }
 
 @media (max-width: 425px) {
